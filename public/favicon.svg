@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="wheelGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#wheelGrad)" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Pointer top -->
+  <polygon points="32,2 26,12 38,12" fill="#e11d48" stroke="#fef08a" stroke-width="1.5"/>
+  <!-- Center hub -->
+  <circle cx="32" cy="32" r="9" fill="#f59e0b" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="4" fill="#090d16"/>
+</svg>
